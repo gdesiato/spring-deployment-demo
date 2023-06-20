@@ -11,6 +11,10 @@
 </head>
 <body>
 <div class="container">
+    <div class="col h1 text-center"
+         style="font-family: 'Barlow Condensed', sans-serid;"
+         th:text="${'TEST Hello' + hello.name + '!'}">
+    </div>
     <div class="row p-4">
         <div class="col h1 text-center" style="font-family: 'Barlow Condensed', sans-serif;"
              th:text="${'Hello ' + hello.name + '!'}">
