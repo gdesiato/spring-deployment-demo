@@ -9,7 +9,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringDeploymentDemoApplication extends SpringBootServletInitializer {
+public class SpringDeploymentDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDeploymentDemoApplication.class, args);
